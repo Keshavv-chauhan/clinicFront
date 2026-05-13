@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/keshav-chauhann/healingFront/static/css/main.fa306333.css",
-    "main.js": "/keshav-chauhann/healingFront/static/js/main.d780434c.js",
-    "static/js/453.ca893ae6.chunk.js": "/keshav-chauhann/healingFront/static/js/453.ca893ae6.chunk.js",
-    "static/media/image00.webp": "/keshav-chauhann/healingFront/static/media/image00.b40840cb12a0ebb4546f.webp",
-    "static/media/logo.png": "/keshav-chauhann/healingFront/static/media/logo.436e1760db9073645ab0.png",
-    "index.html": "/keshav-chauhann/healingFront/index.html",
-    "main.fa306333.css.map": "/keshav-chauhann/healingFront/static/css/main.fa306333.css.map",
-    "main.d780434c.js.map": "/keshav-chauhann/healingFront/static/js/main.d780434c.js.map",
-    "453.ca893ae6.chunk.js.map": "/keshav-chauhann/healingFront/static/js/453.ca893ae6.chunk.js.map"
+    "main.css": "/keshavv-chauhan/healingFront/static/css/main.fa306333.css",
+    "main.js": "/keshavv-chauhan/healingFront/static/js/main.27bcef2c.js",
+    "static/js/453.ca893ae6.chunk.js": "/keshavv-chauhan/healingFront/static/js/453.ca893ae6.chunk.js",
+    "static/media/image00.webp": "/keshavv-chauhan/healingFront/static/media/image00.b40840cb12a0ebb4546f.webp",
+    "static/media/logo.png": "/keshavv-chauhan/healingFront/static/media/logo.436e1760db9073645ab0.png",
+    "index.html": "/keshavv-chauhan/healingFront/index.html",
+    "main.fa306333.css.map": "/keshavv-chauhan/healingFront/static/css/main.fa306333.css.map",
+    "main.27bcef2c.js.map": "/keshavv-chauhan/healingFront/static/js/main.27bcef2c.js.map",
+    "453.ca893ae6.chunk.js.map": "/keshavv-chauhan/healingFront/static/js/453.ca893ae6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa306333.css",
-    "static/js/main.d780434c.js"
+    "static/js/main.27bcef2c.js"
   ]
 }
