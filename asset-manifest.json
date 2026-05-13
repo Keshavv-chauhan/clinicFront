@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Keshavv-chauhan/clinicFront/static/css/main.fa306333.css",
-    "main.js": "/Keshavv-chauhan/clinicFront/static/js/main.0cae00f0.js",
-    "static/js/453.ca893ae6.chunk.js": "/Keshavv-chauhan/clinicFront/static/js/453.ca893ae6.chunk.js",
-    "static/media/image00.webp": "/Keshavv-chauhan/clinicFront/static/media/image00.b40840cb12a0ebb4546f.webp",
-    "static/media/logo.png": "/Keshavv-chauhan/clinicFront/static/media/logo.436e1760db9073645ab0.png",
-    "index.html": "/Keshavv-chauhan/clinicFront/index.html",
-    "main.fa306333.css.map": "/Keshavv-chauhan/clinicFront/static/css/main.fa306333.css.map",
-    "main.0cae00f0.js.map": "/Keshavv-chauhan/clinicFront/static/js/main.0cae00f0.js.map",
-    "453.ca893ae6.chunk.js.map": "/Keshavv-chauhan/clinicFront/static/js/453.ca893ae6.chunk.js.map"
+    "main.css": "/clinicFront/static/css/main.fa306333.css",
+    "main.js": "/clinicFront/static/js/main.1dd9d8a2.js",
+    "static/js/453.ca893ae6.chunk.js": "/clinicFront/static/js/453.ca893ae6.chunk.js",
+    "static/media/image00.webp": "/clinicFront/static/media/image00.b40840cb12a0ebb4546f.webp",
+    "static/media/logo.png": "/clinicFront/static/media/logo.436e1760db9073645ab0.png",
+    "index.html": "/clinicFront/index.html",
+    "main.fa306333.css.map": "/clinicFront/static/css/main.fa306333.css.map",
+    "main.1dd9d8a2.js.map": "/clinicFront/static/js/main.1dd9d8a2.js.map",
+    "453.ca893ae6.chunk.js.map": "/clinicFront/static/js/453.ca893ae6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa306333.css",
-    "static/js/main.0cae00f0.js"
+    "static/js/main.1dd9d8a2.js"
   ]
 }
