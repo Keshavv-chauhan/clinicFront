@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/keshav-chauhann/healingFront/static/css/main.fa306333.css",
+    "main.js": "/keshav-chauhann/healingFront/static/js/main.d780434c.js",
+    "static/js/453.ca893ae6.chunk.js": "/keshav-chauhann/healingFront/static/js/453.ca893ae6.chunk.js",
+    "static/media/image00.webp": "/keshav-chauhann/healingFront/static/media/image00.b40840cb12a0ebb4546f.webp",
+    "static/media/logo.png": "/keshav-chauhann/healingFront/static/media/logo.436e1760db9073645ab0.png",
+    "index.html": "/keshav-chauhann/healingFront/index.html",
+    "main.fa306333.css.map": "/keshav-chauhann/healingFront/static/css/main.fa306333.css.map",
+    "main.d780434c.js.map": "/keshav-chauhann/healingFront/static/js/main.d780434c.js.map",
+    "453.ca893ae6.chunk.js.map": "/keshav-chauhann/healingFront/static/js/453.ca893ae6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fa306333.css",
+    "static/js/main.d780434c.js"
+  ]
+}
