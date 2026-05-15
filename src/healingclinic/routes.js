@@ -7,6 +7,7 @@ import { HomePage } from "./pages/HomePage";
 import { HomeopathyPage } from "./pages/HomeopathyPage";
 import { HydraTherapyPage } from "./pages/HydraTherapyPage";
 import { PhysiotherapyPage } from "./pages/PhysiotherapyPage";
+import { TotalTransformationProgramPage } from "./pages/TotalTransformationProgramPage";
 import { TeamPage } from "./pages/TeamPage";
 import { TestimonialsPage } from "./pages/TestimonialsPage";
 import { AdminDashboardPage } from "./pages/AdminDashboardPage";
@@ -76,6 +77,7 @@ export const routes = {
   ),
   "/hydra-therapy": <HydraTherapyPage />,
   "/functional-training": <FunctionalTrainingPage />,
+  "/total-transformation-program": <TotalTransformationProgramPage />,
   "/about": <TeamPage />,
   "/testimonials": <TestimonialsPage />,
   "/contact": <ContactPage />,
