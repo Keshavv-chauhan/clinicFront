@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/clinicFront/static/css/main.07846080.css",
-    "main.js": "/clinicFront/static/js/main.dfb59657.js",
+    "main.css": "/clinicFront/static/css/main.4d6a4eb9.css",
+    "main.js": "/clinicFront/static/js/main.1e37fa56.js",
     "static/js/453.ca893ae6.chunk.js": "/clinicFront/static/js/453.ca893ae6.chunk.js",
     "static/media/image00.webp": "/clinicFront/static/media/image00.b40840cb12a0ebb4546f.webp",
     "static/media/logo.png": "/clinicFront/static/media/logo.436e1760db9073645ab0.png",
     "index.html": "/clinicFront/index.html",
-    "main.07846080.css.map": "/clinicFront/static/css/main.07846080.css.map",
-    "main.dfb59657.js.map": "/clinicFront/static/js/main.dfb59657.js.map",
+    "main.4d6a4eb9.css.map": "/clinicFront/static/css/main.4d6a4eb9.css.map",
+    "main.1e37fa56.js.map": "/clinicFront/static/js/main.1e37fa56.js.map",
     "453.ca893ae6.chunk.js.map": "/clinicFront/static/js/453.ca893ae6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.07846080.css",
-    "static/js/main.dfb59657.js"
+    "static/css/main.4d6a4eb9.css",
+    "static/js/main.1e37fa56.js"
   ]
 }
