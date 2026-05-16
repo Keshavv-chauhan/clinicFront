@@ -1,6 +1,7 @@
 import { Award, CheckCircle } from "lucide-react";
 
 import { BRAND } from "../theme/brand";
+import { ImgPlaceholder } from "../components/ImgPlaceholder";
 import { BookingCTA } from "../components/BookingCTA";
 import { InteriorHero } from "../components/InteriorHero";
 import { Link } from "../components/Link";
@@ -54,6 +55,10 @@ export function TotalTransformationProgramPage() {
               Combining advanced fitness methods, weekly customized nutrition, lifestyle correction, and holistic wellness, this
               program is curated for individuals seeking a structured and result-oriented transformation journey from inside out.
             </p>
+            <div className="mt-8 grid sm:grid-cols-2 gap-4">
+              <ImgPlaceholder label="Program Sessions" w={600} h={360} />
+              <ImgPlaceholder label="Nutrition & Coaching" w={600} h={360} />
+            </div>
           </div>
 
           <div className="mt-10 flex justify-center">
@@ -105,6 +110,7 @@ export function TotalTransformationProgramPage() {
               subtitle="A premium guided wellness experience with measurable results."
               center={false}
             />
+
             <ul className="space-y-4 mt-6">
               {designedFor.map((b) => (
                 <li key={b} className="flex items-start gap-3">
@@ -117,16 +123,22 @@ export function TotalTransformationProgramPage() {
             </ul>
           </div>
 
-          <div className="rounded-2xl border border-slate-100 p-8" style={{ background: BRAND.blueLight }}>
-            <div className="text-xs font-semibold uppercase tracking-wider" style={{ color: BRAND.blue }}>
-              Our Philosophy
+          <div>
+            <div className="mb-6">
+              <ImgPlaceholder label="Client Progress" w={700} h={420} />
             </div>
-            <h3 className="text-2xl font-bold mt-2" style={{ color: BRAND.slateDeep, fontFamily: "Georgia,serif" }}>
-              No crash diets. No unrealistic promises. No temporary results.
-            </h3>
-            <p className="mt-4 leading-relaxed" style={{ color: BRAND.slate }}>
-              Only structured guidance, sustainable transformation, and medically supervised wellness.
-            </p>
+
+            <div className="rounded-2xl border border-slate-100 p-8" style={{ background: BRAND.blueLight }}>
+              <div className="text-xs font-semibold uppercase tracking-wider" style={{ color: BRAND.blue }}>
+                Our Philosophy
+              </div>
+              <h3 className="text-2xl font-bold mt-2" style={{ color: BRAND.slateDeep, fontFamily: "Georgia,serif" }}>
+                No crash diets. No unrealistic promises. No temporary results.
+              </h3>
+              <p className="mt-4 leading-relaxed" style={{ color: BRAND.slate }}>
+                Only structured guidance, sustainable transformation, and medically supervised wellness.
+              </p>
+            </div>
           </div>
         </div>
       </section>

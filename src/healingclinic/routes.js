@@ -12,6 +12,7 @@ import { TeamPage } from "./pages/TeamPage";
 import { TestimonialsPage } from "./pages/TestimonialsPage";
 import { AdminDashboardPage } from "./pages/AdminDashboardPage";
 import { AdminLoginPage } from "./pages/AdminLoginPage";
+import { LimbLengtheningPage } from "./pages/LimbLengtheningPage";
 
 export const routes = {
   "/": <HomePage />,
@@ -78,6 +79,7 @@ export const routes = {
   "/hydra-therapy": <HydraTherapyPage />,
   "/functional-training": <FunctionalTrainingPage />,
   "/total-transformation-program": <TotalTransformationProgramPage />,
+  "/limb-lengthening": <LimbLengtheningPage />,
   "/about": <TeamPage />,
   "/testimonials": <TestimonialsPage />,
   "/contact": <ContactPage />,

@@ -102,7 +102,7 @@ export function Navbar() {
         </div>
 
         {/* Desktop links */}
-        <div className="hidden lg:flex items-center gap-0.5">
+        <div className="hidden lg:flex items-center gap-0.5 flex-1 justify-center flex-wrap">
           {visibleNavLinks.map((link) => {
             if (link.children) {
               const active = isParentActive(link.children);

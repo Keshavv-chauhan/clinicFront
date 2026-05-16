@@ -18,6 +18,7 @@ export const navLinks = [
   },
   // { label: "Hydra Therapy", path: "/hydra-therapy" },
   { label: "Functional Training", path: "/functional-training" },
+  { label: "Limb Lengthening", path: "/limb-lengthening" },
   { label: "Total Transformation", path: "/total-transformation-program" },
   { label: "Our Team", path: "/about" },
   { label: "Testimonials", path: "/testimonials" },
