@@ -5,7 +5,6 @@ import { ContactPage } from "./pages/ContactPage";
 import { FunctionalTrainingPage } from "./pages/FunctionalTrainingPage";
 import { HomePage } from "./pages/HomePage";
 import { HomeopathyPage } from "./pages/HomeopathyPage";
-import { HydraTherapyPage } from "./pages/HydraTherapyPage";
 import { PhysiotherapyPage } from "./pages/PhysiotherapyPage";
 import { TotalTransformationProgramPage } from "./pages/TotalTransformationProgramPage";
 import { TeamPage } from "./pages/TeamPage";
@@ -76,7 +75,6 @@ export const routes = {
       accentColor={BRAND.blue}
     />
   ),
-  "/hydra-therapy": <HydraTherapyPage />,
   "/functional-training": <FunctionalTrainingPage />,
   "/total-transformation-program": <TotalTransformationProgramPage />,
   "/limb-lengthening": <LimbLengtheningPage />,

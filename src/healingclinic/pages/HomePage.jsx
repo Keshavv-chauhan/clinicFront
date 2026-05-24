@@ -5,11 +5,11 @@ import {
   Calendar,
   CheckCircle,
   Clock,
-  Droplets,
   Dumbbell,
   HeartHandshake,
   Leaf,
   Phone,
+  Ruler,
   Shield,
   Star,
   Users,
@@ -38,18 +38,18 @@ const services = [
     color: BRAND.blue,
   },
   {
-    icon: Droplets,
-    label: "Hydra Therapy",
-    desc: "Water-based therapeutic techniques to accelerate recovery, reduce inflammation, and improve circulation.",
-    path: "/hydra-therapy",
-    color: BRAND.blue,
-  },
-  {
     icon: Dumbbell,
     label: "Functional Training",
     desc: "Personalised movement programmes to build strength, stability, and long-term physical resilience.",
     path: "/functional-training",
     color: BRAND.greenDeep,
+  },
+  {
+    icon: Ruler,
+    label: "Limb Lengthening",
+    desc: "Advanced, medically supervised limb lengthening for height enhancement, deformity correction & rehabilitation.",
+    path: "/limb-lengthening",
+    color: BRAND.blue,
   },
 ];
 
@@ -112,7 +112,7 @@ export function HomePage() {
               <span style={{ color: BRAND.blue }}>Thrive Naturally</span>
             </h1>
             <p className="text-lg md:text-xl leading-relaxed mb-8" style={{ color: BRAND.slate }}>
-              A multidisciplinary clinic integrating Homeopathy, Physiotherapy, Hydra Therapy, and Functional Training — because your body deserves complete, compassionate care.
+              A multidisciplinary clinic integrating Homeopathy, Physiotherapy, Functional Training, and Limb Lengthening — because your body deserves complete, compassionate care.
             </p>
             <div className="flex flex-wrap gap-4 mb-10">
               {showContactLink ? (
@@ -293,6 +293,80 @@ export function HomePage() {
                 </Link>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Limb Lengthening Spotlight */}
+      <section
+        className="py-20 px-6"
+        style={{ background: "linear-gradient(135deg, #f0f9ff 0%, #ffffff 50%, #f0fdf4 100%)" }}
+      >
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+          <div className="relative">
+            <ImgPlaceholder w={700} h={520} label="Limb Lengthening — Frames & Equipment" />
+            <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl shadow-xl p-4 border border-slate-100 max-w-xs">
+              <div className="w-11 h-11 rounded-xl flex items-center justify-center mb-2" style={{ background: BRAND.blueLight }}>
+                <Ruler size={20} style={{ color: BRAND.blue }} />
+              </div>
+              <div className="text-xs font-semibold uppercase tracking-wider mb-1" style={{ color: BRAND.slate }}>
+                Premium Care
+              </div>
+              <div className="text-sm" style={{ color: BRAND.slateDeep }}>
+                High quality frames and equipment for safe, structured outcomes.
+              </div>
+            </div>
+          </div>
+          <div>
+            <SectionHeader
+              tag="Limb Lengthening"
+              title="Quality Limb Lengthening with the Best Equipment"
+              subtitle="A medically supervised program for height enhancement, deformity correction, and rehabilitation."
+              center={false}
+            />
+            <div className="space-y-4" style={{ color: BRAND.slate }}>
+              <p className="leading-relaxed">
+                We use <span className="font-semibold" style={{ color: BRAND.slateDeep }}>high quality frames and equipment</span> across every stage of the procedure — from
+                initial assessment to the consolidation phase — so every patient receives a safe, structured, and dignified experience.
+              </p>
+              <p className="leading-relaxed">
+                We provide a <span className="font-semibold" style={{ color: BRAND.slateDeep }}>quality Limb Lengthening experience with the best equipment</span> available today,
+                combined with personalized rehabilitation, expert orthopedic supervision, and complete support throughout your transformation journey.
+              </p>
+            </div>
+
+            <div className="mt-6 grid sm:grid-cols-2 gap-3">
+              {[
+                "Advanced surgical planning",
+                "Internationally accepted protocols",
+                "Dedicated physiotherapy & rehab",
+                "Premium patient coordination",
+              ].map((item) => (
+                <div key={item} className="flex items-start gap-2.5 bg-white rounded-xl border border-slate-100 p-3">
+                  <CheckCircle size={16} className="mt-0.5" style={{ color: BRAND.green }} />
+                  <span className="text-sm" style={{ color: BRAND.slate }}>{item}</span>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-8 flex flex-wrap gap-4">
+              <Link
+                to="/limb-lengthening"
+                className="inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl border-2 hover:bg-slate-50 transition no-underline"
+                style={{ borderColor: BRAND.blue, color: BRAND.blue }}
+              >
+                Read More <ArrowRight size={15} />
+              </Link>
+              {showContactLink ? (
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 px-7 py-3.5 font-semibold rounded-xl shadow-sm hover:opacity-90 transition no-underline"
+                  style={{ background: BRAND.green, color: "#fff" }}
+                >
+                  <Calendar size={17} /> Book a Free Consultation
+                </Link>
+              ) : null}
+            </div>
           </div>
         </div>
       </section>

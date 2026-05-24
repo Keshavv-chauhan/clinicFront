@@ -95,14 +95,14 @@ export function Navbar() {
       </div>
 
       {/* Main nav */}
-      <div className="max-w-7xl mx-auto px-4 flex items-center justify-between h-16">
+      <div className="max-w-[1500px] mx-auto px-5 flex items-center gap-1.5 h-20">
         {/* Logo */}
-        <div>
-          <img src={logo} alt="The Healing Clinic" className="h-14 w-auto" />
+        <div className="shrink-0">
+          <img src={logo} alt="The Healing Clinic" className="h-12 xl:h-16 w-auto" />
         </div>
 
         {/* Desktop links */}
-        <div className="hidden lg:flex items-center gap-2 flex-1 justify-center flex-nowrap overflow-x-auto">
+        <div className="hidden xl:flex items-center justify-between flex-1 min-w-0 px-2">
           {visibleNavLinks.map((link) => {
             if (link.children) {
               const active = isParentActive(link.children);
@@ -110,19 +110,19 @@ export function Navbar() {
               return (
                 <div
                   key={link.label}
-                  className="relative"
+                  className="relative shrink-0"
                   onMouseEnter={() => handleMouseEnter(link.label)}
                   onMouseLeave={handleMouseLeave}
                 >
                   <button
-                    className="flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-md transition-all hover:-translate-y-[1px] hover:bg-slate-50"
+                    className="flex items-center gap-1.5 px-3 py-2.5 text-[15px] font-medium rounded-md transition-all hover:-translate-y-[1px] hover:bg-slate-50 whitespace-nowrap"
                     style={{
                       color: openDropdown === link.label || active ? BRAND.blue : BRAND.slateDeep,
                       background: active ? BRAND.blueLight : "transparent",
                     }}
                   >
                     {link.label}
-                    <ChevronDown size={13} className={`transition-transform ${openDropdown === link.label ? "rotate-180" : ""}`} />
+                    <ChevronDown size={15} className={`transition-transform ${openDropdown === link.label ? "rotate-180" : ""}`} />
                   </button>
 
                   {openDropdown === link.label && (
@@ -138,7 +138,7 @@ export function Navbar() {
                           <Link
                             key={child.path}
                             to={child.path}
-                            className="flex items-center gap-2 px-4 py-2.5 text-sm rounded-lg mx-2 hover:bg-slate-50 transition-all hover:-translate-y-[1px] no-underline"
+                            className="flex items-center gap-2 px-4 py-2.5 text-sm rounded-lg mx-2 hover:bg-slate-50 transition-all hover:-translate-y-[1px] no-underline whitespace-nowrap"
                             style={{
                               color: childActive ? BRAND.blue : BRAND.slate,
                               background: childActive ? BRAND.blueLight : "transparent",
@@ -162,7 +162,7 @@ export function Navbar() {
               <Link
                 key={link.path}
                 to={link.path}
-                className="px-3 py-2 text-sm font-medium rounded-md transition-all hover:-translate-y-[1px] hover:bg-slate-50 hover:opacity-90 no-underline"
+                className="px-3 py-2.5 text-[15px] font-medium rounded-md transition-all hover:-translate-y-[1px] hover:bg-slate-50 hover:opacity-90 no-underline whitespace-nowrap shrink-0"
                 style={{
                   color: active ? BRAND.blue : BRAND.slateDeep,
                   background: active ? BRAND.blueLight : "transparent",
@@ -175,24 +175,24 @@ export function Navbar() {
         </div>
 
         {/* CTA + burger */}
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 shrink-0">
           {showContactCtas ? (
             <Link
               to="/contact"
-              className="hidden lg:flex items-center gap-1.5 px-4 py-2 text-sm font-semibold rounded-lg transition-all hover:opacity-90 no-underline"
+              className="hidden xl:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold rounded-lg transition-all hover:opacity-90 no-underline whitespace-nowrap"
               style={{ background: BRAND.green, color: "#fff" }}
             >
-              <Calendar size={14} /> Book Appointment
+              <Calendar size={16} /> Book Appointment
             </Link>
           ) : null}
           <Link
             to="/admin"
-            className="hidden lg:flex items-center gap-1.5 px-4 py-2 text-sm font-semibold rounded-lg transition-all hover:opacity-90 no-underline"
+            className="hidden 2xl:flex items-center gap-2 px-5 py-2.5 text-[14px] font-semibold rounded-lg transition-all hover:opacity-90 no-underline whitespace-nowrap"
             style={{ background: BRAND.blueLight, color: BRAND.blue }}
           >
-            <LogIn size={14} /> Login
+            <LogIn size={16} /> Login
           </Link>
-          <button className="lg:hidden p-2 rounded-md" style={{ color: BRAND.slateDeep }} onClick={() => setMenuOpen(!menuOpen)}>
+          <button className="xl:hidden p-2 rounded-md" style={{ color: BRAND.slateDeep }} onClick={() => setMenuOpen(!menuOpen)} aria-label="Toggle menu">
             {menuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
         </div>
@@ -200,7 +200,7 @@ export function Navbar() {
 
       {/* Mobile menu */}
       {menuOpen && (
-        <div className="lg:hidden border-t border-slate-100 bg-white max-h-[80vh] overflow-y-auto">
+        <div className="xl:hidden border-t border-slate-100 bg-white max-h-[80vh] overflow-y-auto">
           {visibleNavLinks.map((link) => (
             <div key={link.label}>
               {link.children ? (

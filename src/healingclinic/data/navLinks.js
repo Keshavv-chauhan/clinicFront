@@ -16,7 +16,6 @@ export const navLinks = [
       { label: "Chronic Pain", path: "/physiotherapy/chronic-pain" },
     ],
   },
-  // { label: "Hydra Therapy", path: "/hydra-therapy" },
   { label: "Functional Training", path: "/functional-training" },
   { label: "Limb Lengthening", path: "/limb-lengthening" },
   { label: "Total Transformation", path: "/total-transformation-program" },

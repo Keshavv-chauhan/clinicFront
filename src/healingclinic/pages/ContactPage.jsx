@@ -118,7 +118,7 @@ export function ContactPage() {
                   style={{ color: form.service ? BRAND.slateDeep : BRAND.slate }}
                 >
                   <option value="">Select Service</option>
-                  {["Homeopathy", "Physiotherapy", "Hydra Therapy", "Functional Training"].map((s) => (
+                  {["Homeopathy", "Physiotherapy", "Functional Training", "Limb Lengthening"].map((s) => (
                     <option key={s}>{s}</option>
                   ))}
                 </select>

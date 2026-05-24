@@ -60,15 +60,6 @@ export const DEFAULT_SITE_CONTENT = {
       photoSrc: "",
     },
     {
-      id: "tm-neha",
-      name: "Dr. Neha Kulkarni",
-      role: "Hydra Therapy Specialist",
-      qual: "BPT, Cert. Aquatic Therapy",
-      exp: "8 years",
-      desc: "Designs low-impact aquatic therapy sessions that support rehabilitation, strength, and joint-friendly conditioning.",
-      photoSrc: "",
-    },
-    {
       id: "tm-vikram",
       name: "Mr. Vikram Patel",
       role: "Functional Training Coach",
@@ -148,8 +139,8 @@ export const DEFAULT_SITE_CONTENT = {
   hiddenPaths: {
     "/homeopathy": false,
     "/physiotherapy": false,
-    "/hydra-therapy": false,
     "/functional-training": false,
+    "/limb-lengthening": false,
     "/about": false,
     "/testimonials": false,
     "/contact": false,

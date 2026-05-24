@@ -10,8 +10,8 @@ import { BRAND } from "../theme/brand";
 const HIDEABLE_PAGES = [
   { label: "Homeopathy", path: "/homeopathy" },
   { label: "Physiotherapy", path: "/physiotherapy" },
-  { label: "Hydra Therapy", path: "/hydra-therapy" },
   { label: "Functional Training", path: "/functional-training" },
+  { label: "Limb Lengthening", path: "/limb-lengthening" },
   { label: "Our Team", path: "/about" },
   { label: "Testimonials", path: "/testimonials" },
   { label: "Contact Us", path: "/contact" },
